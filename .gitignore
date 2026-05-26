@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Application user data
+config/logs/
+config/metadata_cache.db
+data/data.db
+data/data.db-shm
+data/data.db-wal
+data/log/
+
+# Beets library (user-specific)
+config/beets/library.db
+
+# Cache
+cache/
+*.db-wal
+*.db-shm
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Trae
+.trae/
+
+# Codegraph
+.codegraph/

@@ -1,0 +1,126 @@
+{
+  "version": "1.1",
+  "update_url": "https://raw.githubusercontent.com/musicpp/bass-plugins/main/registry.json",
+  "plugins": [
+    {
+      "id": "bass_flac",
+      "dll": "bassflac.dll",
+      "name": "FLAC Decoder",
+      "formats": [".flac"],
+      "description": "支持FLAC无损音频格式",
+      "download_url": "https://www.un4seen.com/files/bassflac24.zip",
+      "sha256": "",
+      "version": "2.4.6.1"
+    },
+    {
+      "id": "bass_ape",
+      "dll": "bass_ape.dll",
+      "name": "APE Decoder",
+      "formats": [".ape", ".mac"],
+      "description": "支持APE/MAC无损音频格式",
+      "download_url": "https://www.un4seen.com/files/bassape24.zip",
+      "sha256": "",
+      "version": "2.4.1"
+    },
+    {
+      "id": "bass_wma",
+      "dll": "basswma.dll",
+      "name": "WMA Decoder",
+      "formats": [".wma", ".wmv"],
+      "description": "支持WMA/WMV音频格式",
+      "download_url": "https://www.un4seen.com/files/basswm24.zip",
+      "sha256": "",
+      "version": "2.4.5.13"
+    },
+    {
+      "id": "bass_alac",
+      "dll": "bass_alac.dll",
+      "name": "ALAC Decoder",
+      "formats": [".alac"],
+      "description": "支持ALAC苹果无损音频格式",
+      "download_url": "https://www.un4seen.com/files/bassalac24.zip",
+      "sha256": "",
+      "version": "2.4.1"
+    },
+    {
+      "id": "bass_opus",
+      "dll": "bassopus.dll",
+      "name": "OPUS Decoder",
+      "formats": [".opus"],
+      "description": "支持OPUS音频格式",
+      "download_url": "https://www.un4seen.com/files/bassopus24.zip",
+      "sha256": "",
+      "version": "2.4.3.1"
+    },
+    {
+      "id": "bass_mpc",
+      "dll": "bass_mpc.dll",
+      "name": "MPC Decoder",
+      "formats": [".mpc", ".mpp"],
+      "description": "支持Musepack音频格式",
+      "download_url": "https://www.un4seen.com/files/z/2/bass_mpc24.zip",
+      "sha256": "",
+      "version": "2.4.1.2"
+    },
+    {
+      "id": "bass_spx",
+      "dll": "bass_spx.dll",
+      "name": "Speex Decoder",
+      "formats": [".spx"],
+      "description": "支持Speex音频格式",
+      "download_url": "https://www.un4seen.com/files/z/2/bass_spx24.zip",
+      "sha256": "",
+      "version": "2.4.3.2"
+    },
+    {
+      "id": "bass_tta",
+      "dll": "bass_tta.dll",
+      "name": "TTA Decoder",
+      "formats": [".tta"],
+      "description": "支持TTA无损音频格式",
+      "download_url": "https://www.un4seen.com/files/z/2/bass_tta24.zip",
+      "sha256": "",
+      "version": "2.4.0.2"
+    },
+    {
+      "id": "basswv",
+      "dll": "basswv.dll",
+      "name": "WavPack Decoder",
+      "formats": [".wv"],
+      "description": "支持WavPack音频格式",
+      "download_url": "https://www.un4seen.com/files/basswv24.zip",
+      "sha256": "",
+      "version": "2.4.7.4"
+    },
+    {
+      "id": "bassmidi",
+      "dll": "bassmidi.dll",
+      "name": "MIDI Decoder",
+      "formats": [".mid", ".midi"],
+      "description": "支持MIDI音乐格式",
+      "download_url": "https://www.un4seen.com/files/bassmidi24.zip",
+      "sha256": "",
+      "version": "2.4.16"
+    },
+    {
+      "id": "bass_ac3",
+      "dll": "bass_ac3.dll",
+      "name": "AC3 Decoder",
+      "formats": [".ac3"],
+      "description": "支持AC3杜比音频格式",
+      "download_url": "https://www.un4seen.com/files/z/2/bass_ac324.zip",
+      "sha256": "",
+      "version": "2.4.0.9"
+    },
+    {
+      "id": "basshls",
+      "dll": "basshls.dll",
+      "name": "HLS Decoder",
+      "formats": [".m3u8"],
+      "description": "支持HLS流媒体播放（M3U8）",
+      "download_url": "https://www.un4seen.com/files/basshls24.zip",
+      "sha256": "",
+      "version": "2.4.5"
+    }
+  ]
+}

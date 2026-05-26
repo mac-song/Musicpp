@@ -1,0 +1,33 @@
+directory: ~/Music
+library: config/beets/library.db
+
+musicbrainz:
+    host: musicbrainz.org
+    https: true
+    ratelimit: 1
+    ratelimit_interval: 1
+
+import:
+    move: no
+    copy: no
+    write: yes
+    autotag: yes
+    quiet: yes
+    timid: no
+    quiet_fallback: asis
+    none_rec_action: asis
+
+plugins: lastgenre
+lastgenre:
+    auto: yes
+    force: yes
+    source: track
+    fallback: Unknown
+    whitelist: yes
+    min_weight: 10
+    count: 1
+
+paths:
+    default: $albumartist/$album%aunique{}/$track $title
+    singleton: Non-Album/$artist - $title
+    comp: Compilations/$album%aunique{}/$track $title

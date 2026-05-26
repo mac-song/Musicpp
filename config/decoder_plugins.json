@@ -1,0 +1,37 @@
+{
+  "bass_aac": {
+    "dll": "bass_aac.dll",
+    "name": "AAC Decoder",
+    "formats": [
+      ".aac",
+      ".m4a",
+      ".mp4"
+    ],
+    "loaded": true,
+    "is_builtin": false
+  },
+  "bass": {
+    "dll": "bass.dll",
+    "name": "bass.dll",
+    "formats": [],
+    "loaded": false,
+    "is_builtin": false
+  },
+  "bass_ape": {
+    "dll": "bass_ape.dll",
+    "name": "APE Decoder",
+    "formats": [
+      ".ape",
+      ".mac"
+    ],
+    "loaded": true,
+    "is_builtin": false
+  },
+  "bass_fx": {
+    "dll": "bass_fx.dll",
+    "name": "bass_fx.dll",
+    "formats": [],
+    "loaded": false,
+    "is_builtin": false
+  }
+}
